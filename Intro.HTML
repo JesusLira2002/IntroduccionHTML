@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="No mas de 165 caracteres">
+    <title>Mi primera pagina</title>
+
+    <link rel="stylesheet" href="assets\css\style.css">
+
+    <link rel="shortcut icon" href="assets/img/Kanye.png" type="image/x-icon">
+
+    <style>
+        body
+        {
+            background-color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+  <!--hola mundo > 
+    <!--<p style="color: red,"> <Esto es un ejemplo</p>!>
+   <!--<ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>-->
+    <h2>Elemento p (parrafos)</h2>
+    <p><s> A ochoa lo mataron a balazos</s></p>
+    <p><u> A ochoa lo mataron a balazos</u></p>
+    <p> A ochoa lo <b>mataron</b> a balazos</p>
+    <p> A ochoa lo <i>mataron</i> a balazos</p>
+
+    <hr>
+    
+    <h2>Elementos h1, h2, h3, h4, h5, h6,  (Encabezados) </h2>
+    <h1>Encabezado 1</h1><!-- Solo debería existir un dodcumento por Encabezado-->
+    <h2>Encabezado 2</h2>
+    <h3>Encabezado 3</h3>
+    <h4>Encabezado 4</h4>
+    <h5>Encabezado 5</h5>
+    <h6>Encabezado 6</h6>
+    
+    <hr>
+    <br> <!-- Etiqueta de salto de línea-->
+    <hr> <!-- Etiqueta para dar un salto de contenido -->
+    <h2>Etiquetas para texto </h2>
+    <p> 
+        <b>negrita</b>
+        <i>itálica</i>
+        <u>subrayado</u>
+        <s>tachado</s>
+        x <sup>2</sup>
+        H <sub>2</sub>
+        <mark> marcador de texto</mark>
+        <small>pequeño</small>
+        <big>grande</big>
+    </p>
+    <hr>
+    <h2>Etiquetas para texto "Semanticas"</h2>
+
+    <strong>negrita</strong>, 
+    <em>itálica</em>,
+    <strike>tachado</strike>,
+    <del>tachado</del>
+
+
+    <!--EJEMPLO-->               
+    <!--<h3>Lista de útiles</h3>
+
+    <ul>
+    <li>
+        <b>lápiz</b>
+    </li>
+    </ul>-->
+
+    <!--<h1>Kanye West</h1>
+    <p>
+    <p><u> Kanye West, nacido como Kanye Omari West; (Atlanta, Georgia; 8 de junio de 1977) es un rapero, productor, actor, diseñador y empresario estadounidense.</u>
+    </p>-->
+
+    <hr>
+    <h2> Etiquetas para citar</h2>
+    <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </blockquote>
+    <cite>- Autor</cite>
+    <!-- <i>- Autor</i> -->
+    <!-- <em>- Autor</em> -->
+    
+    <hr>
+    <h2>Etiquetas pre: Texto preformateado</h2>
+
+    <pre>
+        todo:
+            * tarea1
+            * tarea2
+    </pre>
+
+        <code>
+            for (let i = start; i<= end; i++) { <br>
+                &nbsp;&nbsp;&nbsp; array.push(i) <br>
+            }  
+        </code>
+
+    </pre>
+    <pre>
+        <code>
+            for (let i = start; i<= end; i++) {
+                array.push(i)
+            }    
+        </code>         
+    </pre>
+
+    <hr>
+    <h2>Elementos en bloque o elementos en línea</h2>
+
+    <p>
+        Los elementos en HTML usualmente son elementos "en bloque" o elementos "en línea"
+    </p>
+
+    <h3>En bloque</h3>
+    <p>
+        Un elemento en bloque ocupa todo el espacio de su elemento padre (contenedor), creando así un "bloque".
+    </p>
+    <h3> Diferencias entre elementos en bloque y elementos en línea</h3>
+
+    <h4>Formato</h4>
+    <p>
+        De forma predeterminada, los elementos en bloque comienzan en una nueva línea, pero los elementos en línea pueden comenzar en cualquier parte de una línea.
+    </p>
+
+    <h4>Modelo de contenido</h4>
+    <p>
+        En general, los elementos en bloque pueden contener elementos en línea y otros elementos en bloque. Inherente a esta distinción estructural es la idea de que los elememntos en bloque crean estructuras "mas grandes" que los elementos en línea.
+    </p>
+
+    <a href="https://developer.mozilla.org/es/docs/Glossary/Block-level_content">Ver listado de elementos en bloque
+    </a>
+
+    <h3>En línea</h3>
+    <span>Un elemento en línea ocupa solo el espacio delimitado por las etiquetas que definen el elemento en línea</span>
+    
+    <span>- Este es otro <b>"<u>span</u>"</b> </span>
+
+    <h4>Formato</h4>
+
+    <p>
+        De forma predeterminada, los elementos en línea <b>no</b> commienzan en una nueva línea
+    </p>
+
+    <h4>Modelo de contenido</h4>
+
+    <p>
+        En general, los elementos en línea pueden contener únicamente datos y otros elementos en línea
+    </p>
+
+    <a href="https://developer.mozilla.org/es/docs/orphaned/Web/HTML/Inline_elements">Ver listado de elementos en línea</a>
+
+    <hr>
+    <h2>Etiquetas Semánticas de Estrcuturas</h2>
+
+    <div><b>div:</b> Es una etiqueta contenedora que no tiene semántica</div>
+
+    <!--<div>Este es otro div</div> -->
+
+    <header><b>header:</b> Cabecera de un sitio web o de una sección</header>
+    <nav><b>nav:</b> Representa una navegación</nav>
+    <main><b>main:</b> Define la sección principal del documento</main><!-- Solo debería existir uno por documento -->
+    <footer><b>footer: </b> Pié de página de un sitio web o de una sección</footer>
+    <article><b>article: </b> Representa contenido complementario o secundario</article>
+    <aside><b>aside: </b> Representa una sección de contenido genérico</aside>
+    <address><b>address: </b> Representa informacion de contacto</address>
+
+    <br>
+    <a href="https://www.freecodecamp.org/espanol/news/elementos-semanticos-html5-explicados/">Ver listado de elementos semánticos</a>
+
+    <br>
+    <hr>
+    <h2>Etiquetas de enlace</h2>
+
+    <a href="https://www.google.com/"target="_self">Ir a google</a>
+
+    <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">Ir a Google en otra ventana</a>
+    <br><br>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="#section1">Sección 1</a>
+            </li>
+            <li>
+                <a href="#section2">Sección 2</a>
+            </li>
+            <li>
+                <a href="#section3">Sección 3</a>
+            </li>
+        </ul>
+    </nav>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="assets/source/about.html">Nosotros</a>
+            </li>    
+            <li>    
+                <a href="assets/source/contact.html">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+
+    <a href="mailto:exisboxjuanxd@hotmail.com">Mi correo</a>
+
+    <a href="tel:+524423891620">Mi número</a>
+
+    <a href="https://api.whatsapp.com/send?phone=+524423891620">Envia un whats</a>
+    <li>
+        <a href="https://api.whatsapp.com/send?phone=+524423891620&text=Hola%20soy%20Jesus">Enviar mensaje por whats</a>
+    </li>
+    <li>
+        <a href="https://wa.me/+524423891620">Enviar WhatsApp
+
+        </a>        
+    </li>
+
+    <section id="section1">
+        <h2>Sección 1</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia magnam culpa excepturi sint aspernatur sunt officiis veniam consequuntur repellat ea, at nesciunt quia dolor deleniti error eos distinctio ipsa odio!<p>
+
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, nulla! Ex eveniet itaque suscipit soluta libero magnam omnis modi, architecto beatae facere fugiat quia eos accusamus eligendi officiis non animi?</p> 
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nobis mollitia maxime aperiam provident, sequi numquam dolor incidunt quod eaque quaerat labore aspernatur quia distinctio autem sint tenetur perferendis ratione.   
+                
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam animi, possimus molestias id sint eos consequatur voluptatibus. Exercitationem repellat neque similique ratione hic ab, quidem molestias nulla asperiores fugiat doloremq</p>
+            
+        </p>
+    </section>
+
+    <section id="section2">
+        <h2>Sección 2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia magnam culpa excepturi sint aspernatur sunt officiis veniam consequuntur repellat ea, at nesciunt quia dolor deleniti error eos distinctio ipsa odio!<p>
+
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, nulla! Ex eveniet itaque suscipit soluta libero magnam omnis modi, architecto beatae facere fugiat quia eos accusamus eligendi officiis non animi?</p> 
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nobis mollitia maxime aperiam provident, sequi numquam dolor incidunt quod eaque quaerat labore aspernatur quia distinctio autem sint tenetur perferendis ratione.   
+                
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam animi, possimus molestias id sint eos consequatur voluptatibus. Exercitationem repellat neque similique ratione hic ab, quidem molestias nulla asperiores fugiat doloremq</p>
+    </section>
+
+    <section id="section3">
+        <h2>Sección 3</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia magnam culpa excepturi sint aspernatur sunt officiis veniam consequuntur repellat ea, at nesciunt quia dolor deleniti error eos distinctio ipsa odio!<p>
+
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, nulla! Ex eveniet itaque suscipit soluta libero magnam omnis modi, architecto beatae facere fugiat quia eos accusamus eligendi officiis non animi?</p> 
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nobis mollitia maxime aperiam provident, sequi numquam dolor incidunt quod eaque quaerat labore aspernatur quia distinctio autem sint tenetur perferendis ratione.   
+                
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam animi, possimus molestias id sint eos consequatur voluptatibus. Exercitationem repellat neque similique ratione hic ab, quidem molestias nulla asperiores fugiat doloremq</p>
+    </section>
+
+    <br>
+    <hr>
+    <h2>Listas</h2>
+    <h3>Listas ordenadas</h3>
+    <ol>
+        <li>Uva 🍇</li>
+        <li>Manzana 🍎</li>
+        <li>Pera 🍐 </li>
+        <li>Naranja 🍊 </li>
+        <li>Kiwi 🥝</li>
+    </ol>
+    
+    <ol start="17">
+        <li>Uva 🍇</li>
+        <li>Manzana 🍎</li>
+        <li>Pera 🍐 </li>
+        <li>Naranja 🍊 </li>
+        <li>Kiwi 🥝</li>
+    </ol>
+
+    <ol reversed>
+        <li>Uva 🍇</li>
+        <li>Manzana 🍎</li>
+        <li>Pera 🍐 </li>
+        <li>Naranja 🍊 </li>
+        <li>Kiwi 🥝</li>
+    </ol>
+
+    <ol reversed start="17">
+        <li>Uva 🍇</li>
+        <li>Manzana 🍎</li>
+        <li>Pera 🍐 </li>
+        <li>Naranja 🍊 </li>
+        <li>Kiwi 🥝</li>
+    </ol>
+
+    <h3>Listas desordenadas</h3>
+
+    <ul type="disc">
+        <li>Uva 🍇</li>
+        <li>Manzana 🍎</li>
+        <li>Pera 🍐 </li>
+        <li>Naranja 🍊 </li>
+        <li>Kiwi 🥝</li>
+    </ul>
+
+    <ul type="square">
+        <li>Uva 🍇</li>
+        <li>Manzana 🍎</li>
+        <li>Pera 🍐 </li>
+        <li>Naranja 🍊 </li>
+        <li>Kiwi 🥝</li>
+    </ul>
+
+    <ul type="circle">
+        <li>Uva 🍇</li>
+        <li>Manzana 🍎</li>
+        <li>Pera 🍐 </li>
+        <li>Naranja 🍊 </li>
+        <li>Kiwi 🥝</li>
+    </ul>
+
+    <hr>
+    <h2>Tablas</h2>
+
+    <table border="1">
+        <tr>
+            <td>Nombre</td>
+            <td>Edad</td>
+
+        </tr>
+        <tr>
+            <td>Kanye</td>
+            <td>46</td>
+        </tr>
+        <tr>
+            <td>Jesus</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>Ángel</td>
+            <td>12</td>
+        </tr>
+
+        <br>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Nombre</td>
+                    <td>Edad</td>
+        
+                </tr>
+                <tr>
+                    <td>Kanye</td>
+                    <td>46</td>
+                </tr>
+                <tr>
+                    <td>Jesus</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>Ángel</td>
+                    <td>12</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="2">Usuarios</td>
+
+                </tr>
+            </tfoot>
+        </table>
+        
+    </table>
+
+    <br>    
+    <hr>
+    <h2>Etiqueta para imagen</h2>
+
+    <img src="assets/img/Adda Wong.jpg" alt="Imagen Adda Wong" height="200px" width="200px">
+    <img src="https://imgs.search.brave.com/DzXdF0yw9tO3ocIT_ecn6DrA5pH4iPDEA5MD34HpakQ/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvaGFz/YnVsbGEtc21pbGlu/Zy1mbHVmZnktaGFp/ci1ib2ZuMm8yZXVh/dXRvamR4LmpwZw" alt="Hasbulla" height="200px" width="200px">
+<!--
+    <img src="" alt="" srcset="">
+    <img src="" alt="" sizes="" srcset="">
+    <img src="" alt="" sizes="" srcset="">-->
+
+    <br>    
+    <hr>
+    <h2>Audio & Vídeo</h2>
+
+    <audio src="assets/audio/My Name is Jeff.mp3" controls></audio>
+
+    <video src="assets/video/pinguinomp4.mp4"width="340px" controls poster="assets/img/Pinguino.png"></video>
+
+    <br>
+    <hr>
+    <h2>Iframes</h2>
+    
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119501.0104714273!2d-100.49261818854953!3d20.61227810497744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d35b8fdc5b9255%3A0x97b094aa561b832f!2sSantiago%20de%20Quer%C3%A9taro%2C%20Qro.!5e0!3m2!1ses-419!2smx!4v1695482642208!5m2!1ses-419!2smx" width="340" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></iframe>
+
+    <iframe src="assets/source/about.html" frameborder="1"></iframe>
+
+    <br>
+    <hr>
+    <h2>Formularios</h2>
+
+    <form action="">
+        <p>
+            <label for="Nombre">Nombre: </label>
+            <input type="text" name="nombre" placeholder="Escribe tu nombre">
+        </p>
+        <p>
+            <label for="descripcion">Descripción</label>
+            <textarea name="descripción" id="" cols="35" rows="5"></textarea>
+        </p>
+
+        <input type="radio" name="genero" value ="Femenino" id="">
+        <span>Femenino</span>
+        <input type="radio" name="genero" value="Masculino" id="">
+        <span>Masculino</span>
+        <input type="radio" name="genero" value="otro" id="">
+        <span>Otro</span>
+
+        <br><br>
+        <!--Este se encuentra desactivado -->
+        <select name="genero" id="" disabled="disabled">
+            <option value="femenino">Femenino</option>
+            <option value="masculino">Masculino</option>
+            <option value="otro">Otro</option>
+        </select>
+
+        <!--Este esta activado-->
+        <select name="genero" id="">
+            <option value="femenino">Femenino</option>
+            <option value="masculino">Masculino</option>
+            <option value="otro">Otro</option>
+        </select>
+
+        <br><br>
+        <input type="button" value="Botón">
+
+        <br><br>
+        <h4>Mascotas que tienes</h4>
+        <input type="checkbox" name="Perro" id=""> Perro
+        <input type="checkbox" name="Gato" id=""> Gato
+        <input type="checkbox" name="Otro" id=""> Otro
+        <label for="¿Cuales?">¿Cuales?</label>
+        <input type="text" name="Otros" placeholder="¿Cuales?">
+
+        <br><br>
+        <input type="date" name="" id="">
+        <input type="month" name="" id="">
+        <input type="time" name="" id="">
+
+        <br><br>
+        <input type="color" name="" id="">
+        <input type="range" name="" id="">
+
+        <br><br>
+        <input type="tel" name="" id=""> Telefono   
+        <input type="email" name="" id="">email
+
+        <br><br>
+        <input type="file" name="" id="">
+        <input type="image" src="" alt="">
+
+        <br><br>
+        <input type="submit" value="Enviar Formulario">
+
+    </form>
+
+    <br>
+    <hr>
+    <h2>Botones</h2>
+    <button onclick="alert('Hola desde el boton')" type="submit">Saludar</button>
+
+    <br>
+    <hr>
+
+    <!--  <script>
+        alert("Hola desde la etiqueta script")
+    </script>
+
+    <script src="assets/js/mains.js"></script> -->
+    
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    
+
+</body>
+</html>
